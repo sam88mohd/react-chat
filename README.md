@@ -7,6 +7,7 @@
 - react-redux
 - redux
 - redux-thunk
+- firebase
 
 ## main page
 
