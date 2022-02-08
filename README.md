@@ -1,11 +1,14 @@
 # React chat
 
-## dependencies:
+## dependencies
 
 - react-router-dom
 - material ui v5.4.0
+- react-redux
+- redux
+- redux-thunk
 
-## main page:
+## main page
 
 - user can see title 'join'
 - user can see input box - name

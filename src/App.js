@@ -1,12 +1,18 @@
-import { CssBaseline, Typography } from "@mui/material";
+import { CssBaseline } from "@mui/material";
 import React from "react";
+import LoginForm from "./components/LoginForm/LoginForm";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <div>
+    <main>
       <CssBaseline />
-      <Typography variant="h5">React Chat</Typography>
-    </div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<LoginForm />} />
+        </Routes>
+      </Router>
+    </main>
   );
 };
 
